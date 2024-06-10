@@ -5,10 +5,6 @@ body {
   border: 1px solid black;
   font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
 
-  /* background: linear-gradient(
-    to right rgba(255, 255, 255, 1),
-    rgb(22, 164, 252)
-  ); */
   background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 1),
