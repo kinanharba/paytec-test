@@ -1,38 +1,149 @@
+body {
+  padding: 0;
+  height: 100vh;
+  margin: 0.2rem;
+  border: 1px solid black;
+  font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
+
+  /* background: linear-gradient(
+    to right rgba(255, 255, 255, 1),
+    rgb(22, 164, 252)
+  ); */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1),
+    rgb(186, 217, 237)
+  );
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
+  width: 100%;
+  height: 100%;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h2 {
+    text-align: center;
+    margin: 5px 0;
+    color: #006daa;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 6rem;
+
+  a {
+    align-self: center;
+  }
+  img:nth-child(2) {
+    width: 50px;
+    height: 50px;
+  }
+}
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  .paragraph {
+    color: #006daa;
+  }
+}
+
+/* ---------------Buchen Box--------------- */
+
+.buchen-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+  -webkit-box-shadow: 3px 2px 29px 7px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 2px 29px 7px rgba(0, 0, 0, 0.25);
+  border: 1px solid black;
+  width: 40%;
+  height: 25rem;
+  div {
+    transform: translate(0, -20px);
+    color: #006daa;
+    h5 {
+      font-size: 14px;
+    }
+  }
+  a {
+    display: grid;
+    place-content: center;
+    background-color: #e88550;
+    width: 12rem;
+    height: 3rem;
+    text-align: center;
+    color: white;
+    border-radius: 1.5rem;
+  }
+  img {
+    width: 130px;
+    height: 130px;
+    background-color: #006daa;
+    border-radius: 100px;
+  }
+}
+.buchen-box a:hover {
+  background-color: #eb9363;
+}
+
+@media (max-width: 480px) {
+  .paragraph {
+    font-size: 13px;
+  }
+  .logo-img {
+    width: 100px;
+    height: 40px;
+  }
+  .buchen-box {
+    width: 20%;
+    height: 20rem;
+    div h5 {
+      font-size: 8px;
+    }
+  }
+}
+
+@media (min-width: 1px) and (max-width: 460px) {
+  .buchen-box {
+    width: 90%;
+    height: 27rem;
+    div h2 {
+      font-size: 20px;
+    }
+    div h5 {
+      font-size: 12px;
+    }
+  }
+  .buchen-box div {
+    transform: translate(0, -10px);
+  }
+}
+@media (min-width: 459px) and (max-width: 1200px) {
+  .buchen-box {
+    width: 40%;
+    height: 30rem;
+  }
+}
+
+@media (max-width: 347px) {
+  .paragraph {
+    font-size: 10px;
   }
 }
