@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kinanharba/paytec-test.git/static/css/main.2844e2e6.css",
-    "main.js": "/kinanharba/paytec-test.git/static/js/main.68af0fc1.js",
-    "static/js/453.0319d2c3.chunk.js": "/kinanharba/paytec-test.git/static/js/453.0319d2c3.chunk.js",
-    "index.html": "/kinanharba/paytec-test.git/index.html",
-    "main.2844e2e6.css.map": "/kinanharba/paytec-test.git/static/css/main.2844e2e6.css.map",
-    "main.68af0fc1.js.map": "/kinanharba/paytec-test.git/static/js/main.68af0fc1.js.map",
-    "453.0319d2c3.chunk.js.map": "/kinanharba/paytec-test.git/static/js/453.0319d2c3.chunk.js.map"
+    "main.css": "/paytec-test/static/css/main.2844e2e6.css",
+    "main.js": "/paytec-test/static/js/main.e843182a.js",
+    "static/js/453.0319d2c3.chunk.js": "/paytec-test/static/js/453.0319d2c3.chunk.js",
+    "index.html": "/paytec-test/index.html",
+    "main.2844e2e6.css.map": "/paytec-test/static/css/main.2844e2e6.css.map",
+    "main.e843182a.js.map": "/paytec-test/static/js/main.e843182a.js.map",
+    "453.0319d2c3.chunk.js.map": "/paytec-test/static/js/453.0319d2c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2844e2e6.css",
-    "static/js/main.68af0fc1.js"
+    "static/js/main.e843182a.js"
   ]
 }
