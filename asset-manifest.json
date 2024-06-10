@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/kinanharba/paytec-test.git/static/css/main.2844e2e6.css",
-    "main.js": "/kinanharba/paytec-test.git/static/js/main.05a7ef13.js",
+    "main.js": "/kinanharba/paytec-test.git/static/js/main.68af0fc1.js",
     "static/js/453.0319d2c3.chunk.js": "/kinanharba/paytec-test.git/static/js/453.0319d2c3.chunk.js",
-    "static/media/logo.svg": "/kinanharba/paytec-test.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kinanharba/paytec-test.git/index.html",
     "main.2844e2e6.css.map": "/kinanharba/paytec-test.git/static/css/main.2844e2e6.css.map",
-    "main.05a7ef13.js.map": "/kinanharba/paytec-test.git/static/js/main.05a7ef13.js.map",
+    "main.68af0fc1.js.map": "/kinanharba/paytec-test.git/static/js/main.68af0fc1.js.map",
     "453.0319d2c3.chunk.js.map": "/kinanharba/paytec-test.git/static/js/453.0319d2c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2844e2e6.css",
-    "static/js/main.05a7ef13.js"
+    "static/js/main.68af0fc1.js"
   ]
 }
