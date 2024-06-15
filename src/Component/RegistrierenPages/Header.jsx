@@ -5,6 +5,7 @@ const Header = () => {
       <img
         href="/"
         src="https://paytec.de/wp-content/uploads/2022/03/paytec-logo-blue-black.jpg"
+        alt=""
       />
       <a href="/">
         <MdOutlineLogin />
