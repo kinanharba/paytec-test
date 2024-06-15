@@ -16,7 +16,7 @@ const BuchenBox = () => {
       <div class="personal-foto">
         <img src="" alt="" />
       </div>
-      <a class="regist-button" href="">
+      <a class="regist-button" href="Registrieren">
         jetzt registrieren
       </a>
     </div>
