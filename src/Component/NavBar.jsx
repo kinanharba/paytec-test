@@ -3,7 +3,7 @@ import option from "../option.png";
 const NavBar = () => {
   return (
     <nav>
-      <a href="">
+      <a href="/">
         <img
           class="logo-img"
           width={200}
