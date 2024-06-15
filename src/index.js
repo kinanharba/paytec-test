@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Registrieren from "./Component/RegistrierenPages/Registrieren";
+import Registrieren from './Component/RegistrierenPages/Registrieren'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
