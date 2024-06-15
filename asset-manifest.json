@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/paytec-test/static/css/main.96da8d17.css",
-    "main.js": "/paytec-test/static/js/main.d8ee19b3.js",
+    "main.js": "/paytec-test/static/js/main.95ab7bc4.js",
     "static/js/453.5e8eae0a.chunk.js": "/paytec-test/static/js/453.5e8eae0a.chunk.js",
     "static/media/Pax.png": "/paytec-test/static/media/Pax.2785f88164def1a6806b.png",
     "static/media/Papierrollen.png": "/paytec-test/static/media/Papierrollen.9e7f984bcd734cd8d539.png",
@@ -9,11 +9,11 @@
     "static/media/Papierrollen2.png": "/paytec-test/static/media/Papierrollen2.fb507b1ecbab8722fd24.png",
     "index.html": "/paytec-test/index.html",
     "main.96da8d17.css.map": "/paytec-test/static/css/main.96da8d17.css.map",
-    "main.d8ee19b3.js.map": "/paytec-test/static/js/main.d8ee19b3.js.map",
+    "main.95ab7bc4.js.map": "/paytec-test/static/js/main.95ab7bc4.js.map",
     "453.5e8eae0a.chunk.js.map": "/paytec-test/static/js/453.5e8eae0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96da8d17.css",
-    "static/js/main.d8ee19b3.js"
+    "static/js/main.95ab7bc4.js"
   ]
 }
