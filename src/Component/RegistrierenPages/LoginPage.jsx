@@ -144,7 +144,7 @@ const LoginPage = () => {
             </p>
           </div>
           <div class="button-footer">
-            <a href="">Registrieren</a>
+            <a href="/">Registrieren</a>
           </div>
         </footer>
       </div>
