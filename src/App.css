@@ -185,6 +185,7 @@ nav {
   }
   a {
     display: flex;
+
     margin-right: 5rem;
 
     justify-content: center;
@@ -249,8 +250,11 @@ nav {
 
 .button-footer {
   display: flex;
-  justify-content: end;
   align-items: center;
+  text-align: center;
+
+  justify-content: end;
+
   width: 100%;
   height: 3.5rem;
   background-color: #f8fafc;
@@ -296,12 +300,10 @@ footer {
     justify-content: center;
   }
   a {
-    display: flex;
-    margin-right: 2rem;
+    display: grid;
+    place-content: center;
 
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    margin-right: 2rem;
 
     gap: 7px;
 
