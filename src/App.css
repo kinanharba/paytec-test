@@ -185,15 +185,7 @@ nav {
     margin-left: 5rem;
   }
   a {
-    display: flex;
-
-    place-items: center;
-
     margin-right: 5rem;
-
-    justify-content: center;
-    text-align: center;
-    align-items: center;
 
     gap: 7px;
 
@@ -208,6 +200,14 @@ nav {
     border: 1px solid #0046ea;
     border-radius: 5px;
   }
+}
+
+.login-button a {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .headline-text {

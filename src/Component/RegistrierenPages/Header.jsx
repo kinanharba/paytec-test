@@ -1,17 +1,18 @@
 import { MdOutlineLogin } from "react-icons/md";
 const Header = () => {
   return (
-    <header class="header">
+    <div class="header">
       <img
         href="/"
         src="https://paytec.de/wp-content/uploads/2022/03/paytec-logo-blue-black.jpg"
         alt=""
       />
-      <a href="/">
-        <MdOutlineLogin />
-        Login in
-      </a>
-    </header>
+      <div class="login-button">
+        <a href="/">
+          <MdOutlineLogin /> Login in
+        </a>
+      </div>
+    </div>
   );
 };
 
