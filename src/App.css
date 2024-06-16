@@ -185,6 +185,7 @@ nav {
   }
   a {
     display: flex;
+    place-items: center;
 
     margin-right: 5rem;
 
