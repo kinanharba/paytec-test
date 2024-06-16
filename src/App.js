@@ -1,18 +1,15 @@
 import "./App.css";
-import NavBar from "./Component/NavBar";
-import ProductInfo from "./Component/ProductInfo";
-import BuchenBox from "./Component/BuchenBox";
-import Products from "./Component/Products";
+import AppContainer from "./Component/AppContainer";
+import { Route, Routes } from "react-router";
+import Registrieren from "./Component/RegistrierenPages/Registrieren";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <h2>Hello Michael!</h2>
-      <hr style={{ width: "100%", border: "1px solid #006daa" }} />
-      <ProductInfo />
-      <Products />
-      <BuchenBox />
+    <div>
+      <Routes>
+        <Route path="/" element={<AppContainer />} />
+        <Route path="Registrieren" element={<Registrieren />} />
+      </Routes>
     </div>
   );
 }

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const BuchenBox = () => {
   return (
     <div class="buchen-box">
@@ -16,9 +18,11 @@ const BuchenBox = () => {
       <div class="personal-foto">
         <img src="" alt="" />
       </div>
-      <a class="regist-button" href="Registrieren">
-        jetzt registrieren
-      </a>
+      <Link to="Registrieren">
+        <a class="regist-button" href="Registrieren">
+          jetzt registrieren
+        </a>
+      </Link>
     </div>
   );
 };

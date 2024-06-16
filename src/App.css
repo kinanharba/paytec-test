@@ -131,7 +131,8 @@ nav {
 }
 
 .sonder-button {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   place-content: center;
   position: absolute;
   width: 10rem;
@@ -139,14 +140,18 @@ nav {
 
   /* background: linear-gradient(to top, #eea076, #e6bca6, #f6e2d8, white);
    */
+  text-decoration: none;
   background: linear-gradient(175deg, #ffffff 15%, #f6783a 100%);
 
   border-radius: 10px;
   color: black;
-  text-decoration: none;
   text-align: center;
   border: 2px solid #e97b34;
   span {
+    display: flex;
+    justify-content: center;
+
+    list-style: none;
     font-size: 12px;
   }
 }
@@ -182,15 +187,20 @@ nav {
     display: flex;
     margin-right: 5rem;
 
-    gap: 7px;
     justify-content: center;
-    place-items: center;
     text-align: center;
+    align-items: center;
+
+    gap: 7px;
+
     width: 100px;
     height: 30px;
+
     background-color: #3067eb;
     color: #ffffff;
+
     text-decoration: none;
+
     border: 1px solid #0046ea;
     border-radius: 5px;
   }
@@ -234,22 +244,6 @@ nav {
 
     border-radius: 5px;
     border: 1px solid #d3dce6;
-  }
-  a {
-    display: flex;
-    margin-right: 2rem;
-
-    gap: 7px;
-    justify-content: center;
-    place-items: center;
-    text-align: center;
-    width: 100px;
-    height: 30px;
-    background-color: #3067eb;
-    color: #ffffff;
-    text-decoration: none;
-    border: 1px solid #0046ea;
-    border-radius: 5px;
   }
 }
 
@@ -295,6 +289,28 @@ footer {
   background-color: #ffffff;
   div {
     display: flex;
+  }
+
+  a {
+    display: flex;
+    margin-right: 2rem;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    gap: 7px;
+
+    width: 100px;
+    height: 30px;
+
+    background-color: #3067eb;
+    color: #ffffff;
+
+    text-decoration: none;
+
+    border: 1px solid #0046ea;
+    border-radius: 5px;
   }
 }
 
@@ -370,21 +386,11 @@ footer {
     }
 
     a {
-      display: flex;
-      margin: 0;
       margin-right: 30px;
-
-      gap: 7px;
+      display: flex;
       justify-content: center;
-      place-items: center;
+      align-items: center;
       text-align: center;
-      width: 100px;
-      height: 30px;
-      background-color: #3067eb;
-      color: #ffffff;
-      text-decoration: none;
-      border: 1px solid #0046ea;
-      border-radius: 5px;
     }
   }
 
@@ -393,10 +399,10 @@ footer {
     flex-direction: column;
     gap: 0;
     width: 80%;
-    height: 1100px;
+    height: 1120px;
   }
   footer {
-    width: 95%;
+    width: 97%;
     transform: translate(0, -40px);
     display: flex;
     justify-content: center;
@@ -406,7 +412,8 @@ footer {
     background-color: #ffffff;
     div {
       display: flex;
-      margin-left: 20px;
+
+      margin-left: 16px;
       p,
       span {
         font-size: 15px;
@@ -415,6 +422,20 @@ footer {
         transform: translate(-5px, -8px);
       }
     }
+    .button-footer {
+      a {
+        display: grid;
+        place-content: center;
+      }
+    }
+  }
+  .button-footer {
+    transform: translate(-10px, 0);
+    display: grid;
+    place-content: center;
+    align-items: center;
+
+    justify-content: end;
   }
 
   .user-info {
@@ -450,6 +471,81 @@ footer {
   #thr-img {
     /* transform: translate(-100px, 0); */
     right: 30px;
+  }
+}
+
+@media (min-width: 1px) and (max-width: 380px) {
+  .headline-text {
+    align-items: center;
+    gap: 1rem;
+    height: 90%;
+    transform: translate(0, 20px);
+    h1 {
+      font-size: 15px;
+    }
+  }
+  .login-info {
+    h2 {
+      font-size: 16px;
+    }
+  }
+  .user-container {
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+    justify-content: start;
+
+    width: 75%;
+    height: 1130px;
+  }
+  .user-info {
+    width: 70%;
+
+    padding-top: 0.4rem;
+    input {
+      width: 16rem;
+      height: 1rem;
+      border-radius: 5px;
+      border: 1px solid #d3dce6;
+    }
+    label {
+      margin: 10px 0 5px 0;
+      font-size: 15px;
+    }
+    span {
+      color: red;
+    }
+    select {
+      width: 16.36rem;
+      height: 1.5rem;
+      border-radius: 5px;
+      border: 1px solid #d3dce6;
+    }
+  }
+  footer {
+    width: 96%;
+    border-bottom: 1px solid #e3e9f1;
+    border-right: 1px solid #e3e9f1;
+    border-left: 1px solid #e3e9f1;
+    transform: translate(0, -40px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    align-items: center;
+    background-color: #ffffff;
+    div {
+      display: flex;
+      margin-left: 20px;
+      p,
+      span {
+        font-size: 12px;
+      }
+      input {
+        transform: translate(-10px, -8px);
+      }
+    }
   }
 }
 
