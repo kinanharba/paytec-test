@@ -282,6 +282,10 @@ nav {
   }
 }
 
+.checkbox {
+  display: flex;
+  justify-content: center;
+}
 footer {
   width: 74.5%;
   transform: translate(0, -40px);
@@ -295,10 +299,6 @@ footer {
   align-items: center;
   background-color: #ffffff;
 
-  div {
-    display: flex;
-    justify-content: center;
-  }
   a {
     display: grid;
     place-content: center;
