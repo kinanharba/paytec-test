@@ -9,7 +9,7 @@ const Header = () => {
       />
       <a href="/">
         <MdOutlineLogin />
-        Login in
+        <span> Login in</span>
       </a>
     </header>
   );
