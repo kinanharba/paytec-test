@@ -189,9 +189,9 @@ nav {
 
     margin-right: 5rem;
 
-    justify-content: center;
+    justify-self: center;
     text-align: center;
-    align-items: center;
+    align-self: center;
 
     gap: 7px;
 
