@@ -123,7 +123,7 @@ const LoginPage = () => {
         </div>
 
         <footer>
-          <div>
+          <div class="checkbox">
             <input type="checkbox" />
             <p>
               Ich stimme den{" "}
@@ -133,7 +133,7 @@ const LoginPage = () => {
               zu.
             </p>
           </div>
-          <div>
+          <div class="checkbox">
             <input type="checkbox" />
             <p>
               Ich möchte den kostenlosen Newsletter abonnieren und stimme den
