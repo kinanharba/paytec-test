@@ -285,6 +285,9 @@ footer {
   justify-content: center;
   flex-direction: column;
 
+  border-left: 1px solid #e3e9f1;
+  border-right: 1px solid #e3e9f1;
+
   align-items: center;
   background-color: #ffffff;
   div {
@@ -402,7 +405,7 @@ footer {
     height: 1120px;
   }
   footer {
-    width: 97%;
+    width: 96%;
     transform: translate(0, -40px);
     display: flex;
     justify-content: center;
@@ -524,7 +527,7 @@ footer {
     }
   }
   footer {
-    width: 96%;
+    width: 93%;
     border-bottom: 1px solid #e3e9f1;
     border-right: 1px solid #e3e9f1;
     border-left: 1px solid #e3e9f1;
