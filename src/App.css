@@ -353,6 +353,9 @@ footer {
   }
 }
 
+input.react-international-phone-input {
+  width: 22.5rem;
+}
 @media (max-width: 480px) {
   .paragraph {
     font-size: 13px;
@@ -470,6 +473,10 @@ footer {
       border: 1px solid #d3dce6;
     }
   }
+  input.react-international-phone-input {
+    width: 100%;
+    min-width: 13.5rem;
+  }
 }
 
 @media (min-width: 291px) and (max-width: 440px) {
@@ -560,6 +567,10 @@ footer {
         width: 10px;
       }
     }
+  }
+  input.react-international-phone-input {
+    width: 100%;
+    min-width: 13.5rem;
   }
 }
 

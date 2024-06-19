@@ -67,7 +67,6 @@ const LoginPage = () => {
                 Telefonnummer
               </label>
               <PhoneInput
-                style={{ width: "25.3rem" }}
                 defaultCountry="ua"
                 value={phone}
                 onChange={(phone) => setPhone(phone)}
@@ -128,12 +127,13 @@ const LoginPage = () => {
                 <span></span>
                 <span>*</span> Telefonnummer
               </label>
-              <PhoneInput
-                style={{ width: "25.3rem" }}
-                defaultCountry="de"
-                value={phone}
-                onChange={(phone) => setPhone(phone)}
-              />
+              <div class="telefon-field">
+                <PhoneInput
+                  defaultCountry="de"
+                  value={phone}
+                  onChange={(phone) => setPhone(phone)}
+                />
+              </div>
             </div>
             <div className="user-info">
               <label>Land</label>
