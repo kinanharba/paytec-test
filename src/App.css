@@ -217,6 +217,10 @@ nav {
   gap: 2rem;
   height: 100%;
   transform: translate(0, 20px);
+
+  option {
+    height: 300px;
+  }
 }
 
 .container {
